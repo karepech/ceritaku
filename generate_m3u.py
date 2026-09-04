@@ -4,8 +4,8 @@ import os
 
 # === KONFIGURASI ===
 API_URL = "https://boti.my.id/index.php?api=playlist&email=mbkidriss9%40gmail.com&password=12345678"
-OUTPUT_INDO = "indo.m3u"
-OUTPUT_LUAR = "luar.m3u"
+OUTPUT_FILE = "playlist-vidio.m3u"
+MAX_SERIES = 100 # Batas maksimal series yang diambil
 
 def generate_playlist():
     print(f"Mengambil data terbaru dari API...\nURL: {API_URL}")
@@ -21,81 +21,66 @@ def generate_playlist():
         
         # JIKA API MENGEMBALIKAN TEKS M3U LANGSUNG
         if content.startswith("#EXTM3U"):
-            print("Mendeteksi format M3U langsung. Memulai proses filter dan pemisahan teks...")
+            print(f"Mendeteksi format M3U langsung. Mengambil maksimal {MAX_SERIES} SERIES teratas...")
             lines = content.splitlines()
             
-            indo_lines = ["#EXTM3U"]
-            luar_lines = ["#EXTM3U"]
+            filtered_lines = ["#EXTM3U"]
             
             current_block = []
             is_series = False
-            is_indo = False
-            
-            count_indo = 0
-            count_luar = 0
+            count = 0
             
             for line in lines[1:]: # Lewati baris pertama (#EXTM3U)
+                if count >= MAX_SERIES:
+                    break # Hentikan pencarian jika sudah 100
+                    
                 line_str = line.strip()
                 if line_str == "":
                     continue
                     
                 if line_str.startswith("#EXTINF"):
-                    # Masukkan blok sebelumnya ke kategori yang sesuai
+                    # Jika sebelumnya ada blok channel SERIES, simpan
                     if current_block and is_series:
-                        if is_indo:
-                            indo_lines.extend(current_block)
-                            indo_lines.append("") # Jarak antar channel
-                            count_indo += 1
-                        else:
-                            luar_lines.extend(current_block)
-                            luar_lines.append("")
-                            count_luar += 1
+                        filtered_lines.extend(current_block)
+                        filtered_lines.append("") # Jarak antar channel
+                        count += 1
+                        
+                        # Cek lagi setelah menambah, apakah sudah mencapai limit
+                        if count >= MAX_SERIES:
+                            break
                     
                     # Mulai blok channel baru
                     current_block = [line_str]
                     
-                    # Cek kategori
-                    line_lower = line_str.lower()
-                    if "group-title" in line_lower and "series" in line_lower:
+                    # Cek apakah tag group-title mengandung kata "series"
+                    if "group-title" in line_str.lower() and "series" in line_str.lower():
                         is_series = True
-                        # Jika ada kata "indo" (misal "Indonesia"), masuk ke indo.m3u
-                        if "indo" in line_lower:
-                            is_indo = True
-                        else:
-                            is_indo = False
                     else:
                         is_series = False
                 else:
-                    # Tambahkan baris URL atau atribut lain (seperti #EXTVLCOPT) ke blok saat ini
+                    # Tambahkan baris URL atau atribut lain ke blok saat ini
                     if current_block:
                         current_block.append(line_str)
             
-            # Jangan lupa masukkan blok channel terakhir jika lolos filter
-            if current_block and is_series:
-                if is_indo:
-                    indo_lines.extend(current_block)
-                    indo_lines.append("")
-                    count_indo += 1
-                else:
-                    luar_lines.extend(current_block)
-                    luar_lines.append("")
-                    count_luar += 1
+            # Masukkan blok channel terakhir (jika file habis tepat sebelum limit)
+            if current_block and is_series and count < MAX_SERIES:
+                filtered_lines.extend(current_block)
+                filtered_lines.append("")
+                count += 1
 
-            # Tulis hasil ke 2 file yang berbeda
-            with open(OUTPUT_INDO, "w", encoding="utf-8") as f:
-                f.write("\n".join(indo_lines))
+            # Tulis hasil filter ke file
+            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                f.write("\n".join(filtered_lines))
                 
-            with open(OUTPUT_LUAR, "w", encoding="utf-8") as f:
-                f.write("\n".join(luar_lines))
-                
-            print(f"Sukses! Pemisahan selesai:\n- {OUTPUT_INDO}: {count_indo} channel\n- {OUTPUT_LUAR}: {count_luar} channel")
+            print(f"Sukses! File M3U berhasil diperbarui. Total diambil: {count} SERIES.")
             return
 
-        # JIKA API MENGEMBALIKAN JSON (Fallback jika sewaktu-waktu format berubah)
+        # JIKA API MENGEMBALIKAN JSON (Fallback)
         try:
             data = response.json()
-            print("Mendeteksi format JSON. Memulai proses konversi dan pemisahan...")
+            print("Mendeteksi format JSON. Memulai proses filter...")
             
+            # ... (Logika ekstraksi JSON tetap dipertahankan sebagai cadangan jika API berubah) ...
             channels_to_process = []
             
             if isinstance(data, list):
@@ -125,56 +110,46 @@ def generate_playlist():
                                 item["_global_a"] = global_a
                                 channels_to_process.append(item)
             
-            indo_lines = ["#EXTM3U"]
-            luar_lines = ["#EXTM3U"]
-            count_indo = 0
-            count_luar = 0
-            
-            for ch in channels_to_process:
-                name = ch.get("name", ch.get("title", ch.get("channel", "Unknown")))
-                logo = ch.get("logo", ch.get("image", ""))
-                group = ch.get("group", ch.get("category", ch.get("category_name", ch.get("_auto_group", "Vidio"))))
-                group_lower = str(group).lower()
+            count = 0
+            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                f.write("#EXTM3U\n")
                 
-                if "series" not in group_lower:
-                    continue 
+                for ch in channels_to_process:
+                    if count >= MAX_SERIES:
+                        break
 
-                stream_url = ch.get("url", ch.get("link", ""))
-                
-                if not stream_url and "id" in ch:
-                    u = ch.get("u", ch.get("_global_u", "mbkidriss9@gmail.com"))
-                    x = ch.get("x", ch.get("_global_x", ""))
-                    a = ch.get("a", ch.get("_global_a", ""))
-                    ch_id = ch['id']
+                    name = ch.get("name", ch.get("title", ch.get("channel", "Unknown")))
+                    logo = ch.get("logo", ch.get("image", ""))
+                    group = ch.get("group", ch.get("category", ch.get("category_name", ch.get("_auto_group", "Vidio"))))
                     
-                    hls_url = f"https://boti.my.id/index.m3u8?u={u}&x={x}&a={a}&id={ch_id}&type=hls&api=video"
-                    dash_url = f"https://boti.my.id/index.mpd?u={u}&x={x}&a={a}&id={ch_id}&type=dash&api=video"
-                    drm_url = f"https://boti.my.id/index.php?u={u}&x={x}&a={a}&id={ch_id}&type=drm&api=video"
+                    if "series" not in str(group).lower():
+                        continue 
+
+                    stream_url = ch.get("url", ch.get("link", ""))
                     
-                    block = []
-                    block.append(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (HLS)')
-                    block.append(f'{hls_url}')
-                    block.append(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (DASH)')
-                    block.append('#KODIPROP:inputstream=inputstream.adaptive')
-                    block.append('#KODIPROP:inputstream.adaptive.manifest_type=mpd')
-                    block.append('#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha') 
-                    block.append(f'#KODIPROP:inputstream.adaptive.license_key={drm_url}')
-                    block.append(f'{dash_url}')
-                    
-                    if "indo" in group_lower:
-                        indo_lines.extend(block)
-                        count_indo += 1
-                    else:
-                        luar_lines.extend(block)
-                        count_luar += 1
+                    if not stream_url and "id" in ch:
+                        u = ch.get("u", ch.get("_global_u", "mbkidriss9@gmail.com"))
+                        x = ch.get("x", ch.get("_global_x", ""))
+                        a = ch.get("a", ch.get("_global_a", ""))
+                        ch_id = ch['id']
                         
-            with open(OUTPUT_INDO, "w", encoding="utf-8") as f:
-                f.write("\n".join(indo_lines))
-                
-            with open(OUTPUT_LUAR, "w", encoding="utf-8") as f:
-                f.write("\n".join(luar_lines))
-                
-            print(f"Sukses (JSON)! Pemisahan selesai:\n- {OUTPUT_INDO}: {count_indo} channel\n- {OUTPUT_LUAR}: {count_luar} channel")
+                        hls_url = f"https://boti.my.id/index.m3u8?u={u}&x={x}&a={a}&id={ch_id}&type=hls&api=video"
+                        dash_url = f"https://boti.my.id/index.mpd?u={u}&x={x}&a={a}&id={ch_id}&type=dash&api=video"
+                        drm_url = f"https://boti.my.id/index.php?u={u}&x={x}&a={a}&id={ch_id}&type=drm&api=video"
+                        
+                        f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (HLS)\n')
+                        f.write(f'{hls_url}\n')
+                        
+                        f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (DASH)\n')
+                        f.write('#KODIPROP:inputstream=inputstream.adaptive\n')
+                        f.write('#KODIPROP:inputstream.adaptive.manifest_type=mpd\n')
+                        f.write('#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha\n') 
+                        f.write(f'#KODIPROP:inputstream.adaptive.license_key={drm_url}\n')
+                        f.write(f'{dash_url}\n')
+                        
+                        count += 1
+                        
+            print(f"Sukses! {count} channel SERIES berhasil di-generate dari JSON.")
             
         except json.JSONDecodeError:
             print("Error: Output API bukan JSON dan bukan M3U yang valid.")
