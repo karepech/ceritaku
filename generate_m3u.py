@@ -18,22 +18,61 @@ def generate_playlist():
         response.raise_for_status() 
         content = response.text.strip()
         
-        # Jika API langsung membalikkan M3U (Catatan: ini tidak bisa di-filter dengan cara JSON di bawah)
+        # JIKA API MENGEMBALIKAN TEKS M3U LANGSUNG
         if content.startswith("#EXTM3U"):
-            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                f.write(content)
-            print(f"Peringatan: API merespons dengan format M3U langsung. Filter SERIES tidak dapat diterapkan pada respons ini.")
-            return
+            print("Mendeteksi format M3U langsung. Memulai proses filter teks...")
+            lines = content.splitlines()
+            filtered_lines = ["#EXTM3U"]
             
+            current_block = []
+            keep_block = False
+            count = 0
+            
+            for line in lines[1:]: # Lewati baris pertama (#EXTM3U)
+                line_str = line.strip()
+                if line_str == "":
+                    continue
+                    
+                if line_str.startswith("#EXTINF"):
+                    # Jika sebelumnya ada blok channel yang disetujui (keep_block = True), masukkan ke daftar akhir
+                    if current_block and keep_block:
+                        filtered_lines.extend(current_block)
+                        filtered_lines.append("") # Jarak antar channel
+                        count += 1
+                    
+                    # Mulai blok channel baru
+                    current_block = [line_str]
+                    
+                    # Cek apakah tag group-title mengandung kata "series"
+                    if "group-title" in line_str.lower() and "series" in line_str.lower():
+                        keep_block = True
+                    else:
+                        keep_block = False
+                else:
+                    # Tambahkan baris URL atau atribut lain (seperti #EXTVLCOPT) ke blok saat ini
+                    if current_block:
+                        current_block.append(line_str)
+            
+            # Jangan lupa masukkan blok channel terakhir jika lolos filter
+            if current_block and keep_block:
+                filtered_lines.extend(current_block)
+                filtered_lines.append("")
+                count += 1
+
+            # Tulis hasil filter ke file
+            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                f.write("\n".join(filtered_lines))
+                
+            print(f"Sukses! File M3U berhasil diperbarui dan difilter. Tersisa {count} channel SERIES.")
+            return
+
+        # JIKA API MENGEMBALIKAN JSON (Fallback)
         try:
             data = response.json()
-            print("Membaca format JSON dan membedakan kategori bawaan...")
+            print("Mendeteksi format JSON. Memulai proses konversi dan filter...")
             
             channels_to_process = []
             
-            # --- LOGIKA PENCARIAN KATEGORI OTOMATIS ---
-            
-            # SKENARIO A: JSON berupa List
             if isinstance(data, list):
                 for item in data:
                     if "channels" in item and isinstance(item["channels"], list):
@@ -45,7 +84,6 @@ def generate_playlist():
                     elif isinstance(item, dict):
                         channels_to_process.append(item)
 
-            # SKENARIO B: JSON berupa Dictionary
             elif isinstance(data, dict):
                 global_u = data.get("u", "mbkidriss9@gmail.com")
                 global_x = data.get("x", "")
@@ -62,7 +100,6 @@ def generate_playlist():
                                 item["_global_a"] = global_a
                                 channels_to_process.append(item)
             
-            # --- PENULISAN FILE M3U BESERTA FILTER SERIES ---
             count = 0
             with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
@@ -72,13 +109,8 @@ def generate_playlist():
                     logo = ch.get("logo", ch.get("image", ""))
                     group = ch.get("group", ch.get("category", ch.get("category_name", ch.get("_auto_group", "Vidio"))))
                     
-                    # ==========================================
-                    # FILTER UTAMA: HANYA AMBIL GRUP "SERIES"
-                    # ==========================================
-                    # Jika tidak ada kata "series" di dalam nama grup, lompati / abaikan item ini
                     if "series" not in str(group).lower():
                         continue 
-                    # ==========================================
 
                     stream_url = ch.get("url", ch.get("link", ""))
                     
@@ -92,11 +124,9 @@ def generate_playlist():
                         dash_url = f"https://boti.my.id/index.mpd?u={u}&x={x}&a={a}&id={ch_id}&type=dash&api=video"
                         drm_url = f"https://boti.my.id/index.php?u={u}&x={x}&a={a}&id={ch_id}&type=drm&api=video"
                         
-                        # Tulis versi HLS
                         f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (HLS)\n')
                         f.write(f'{hls_url}\n')
                         
-                        # Tulis versi DASH
                         f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (DASH)\n')
                         f.write('#KODIPROP:inputstream=inputstream.adaptive\n')
                         f.write('#KODIPROP:inputstream.adaptive.manifest_type=mpd\n')
@@ -106,10 +136,10 @@ def generate_playlist():
                         
                         count += 1
                         
-            print(f"Sukses! {count} channel SERIES berhasil di-generate. (Total {count*2} link karena HLS & DASH digabung).")
+            print(f"Sukses! {count} channel SERIES berhasil di-generate dari JSON.")
             
         except json.JSONDecodeError:
-            print("Error: Output API tidak valid JSON.")
+            print("Error: Output API bukan JSON dan bukan M3U yang valid.")
             
     except requests.exceptions.RequestException as e:
         print(f"Koneksi ke API gagal: {e}")
