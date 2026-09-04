@@ -1,16 +1,16 @@
-name: Auto Update Series Playlist
+name: Auto Update M3U Playlist
 
 on:
   schedule:
-    # Menjalankan script otomatis setiap 2 jam sekali
-    - cron: '0 */2 * * *'
-  workflow_dispatch: # Tombol eksekusi manual via tab Actions
+    # Menjalankan script setiap 3 jam sekali (sebelum token 4 jam kedaluwarsa)
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # Mengizinkan eksekusi manual via tombol "Run workflow"
 
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Mengizinkan bot untuk menyimpan file M3U ke repository
 
     steps:
       - name: Checkout repository
@@ -34,5 +34,6 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add playlist-vidio.m3u
-          git commit -m "Auto-update series playlist $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          # Menyimpan dengan pesan commit berisi jam saat ini
+          git commit -m "Auto-update playlist $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push
