@@ -3,10 +3,15 @@ import json
 import os
 import re
 
-# === KONFIGURASI ===
+# === KONFIGURASI 4 FILE OUTPUT ===
 API_URL = "https://boti.my.id/index.php?api=playlist&email=mbkidriss9%40gmail.com&password=12345678"
-OUTPUT_FILE = "playlist-vidio.m3u"
-MAX_SERIES = 100 # Batas maksimal 100 JUDUL BERBEDA
+OUTPUT_ALL = "playlist-vidio.m3u"      # File Master (Semua ada)
+OUTPUT_SERIES = "all_series.m3u"       # Khusus Series (Limit 100 Judul)
+OUTPUT_MOVIES = "movies.m3u"           # Khusus Film
+OUTPUT_LIVE = "live_upcoming.m3u"      # Khusus Live & Upcoming
+
+# === BATAS MAKSIMAL JUDUL UNTUK FILE SERIES ===
+MAX_SERIES = 100 
 
 def generate_playlist():
     print(f"Mengambil data terbaru dari API...\nURL: {API_URL}")
@@ -20,70 +25,123 @@ def generate_playlist():
         response.raise_for_status() 
         content = response.text.strip()
         
-        # JIKA API MENGEMBALIKAN TEKS M3U LANGSUNG
+        # =================================================================
+        # JIKA API MENGEMBALIKAN TEKS M3U LANGSUNG (Format Raw Blok)
+        # =================================================================
         if content.startswith("#EXTM3U"):
-            print(f"Mendeteksi format M3U langsung. Mengambil maksimal {MAX_SERIES} judul SERIES unik...")
+            print("Mendeteksi format M3U langsung. Memulai proses generate 4 file...")
             lines = content.splitlines()
             
-            filtered_lines = ["#EXTM3U"]
+            all_lines = ["#EXTM3U"]
+            series_lines = ["#EXTM3U"]
+            movies_lines = ["#EXTM3U"]
+            live_lines = ["#EXTM3U"]
+            
+            count_all = 0
+            count_series = 0
+            count_movies = 0
+            count_live = 0
+            
             current_block = []
+            category_target = None
+            seen_series = set()
             
-            seen_series = set() # Penyimpan daftar judul unik yang sudah diproses
-            is_valid_series = False
-            total_episodes = 0
-            
-            for line in lines[1:]: # Lewati baris pertama (#EXTM3U)
+            for line in lines[1:]: 
                 line_str = line.strip()
                 if line_str == "":
                     continue
                     
                 if line_str.startswith("#EXTINF"):
-                    # Jika sebelumnya ada blok channel SERIES, simpan
-                    if current_block and is_valid_series:
-                        filtered_lines.extend(current_block)
-                        filtered_lines.append("") # Jarak antar channel
-                        total_episodes += 1
+                    # === SIMPAN BLOK SEBELUMNYA KE FILE YANG TEPAT ===
+                    if current_block:
+                        # 1. Selalu masukkan ke File Master (playlist-vidio.m3u)
+                        all_lines.extend(current_block)
+                        all_lines.append("")
+                        count_all += 1
+                        
+                        # 2. Masukkan ke file pecahan sesuai kategorinya
+                        if category_target == "series":
+                            series_lines.extend(current_block)
+                            series_lines.append("")
+                            count_series += 1
+                        elif category_target == "movie":
+                            movies_lines.extend(current_block)
+                            movies_lines.append("")
+                            count_movies += 1
+                        elif category_target == "live":
+                            live_lines.extend(current_block)
+                            live_lines.append("")
+                            count_live += 1
                     
-                    # Mulai blok channel baru
+                    # === MULAI BLOK CHANNEL BARU ===
                     current_block = [line_str]
-                    is_valid_series = False
+                    category_target = None
                     
-                    # Cek tag group-title dengan Regex
                     match = re.search(r'group-title="([^"]+)"', line_str, re.IGNORECASE)
                     if match:
                         group_title = match.group(1).strip()
+                        group_lower = group_title.lower()
                         
-                        # Pastikan itu adalah "series"
-                        if "series" in group_title.lower():
+                        # LOGIKA FILTER KATEGORI:
+                        if "series" in group_lower:
                             if group_title in seen_series:
-                                # Jika judul sudah ada di daftar, boleh terus masuk (episode berikutnya)
-                                is_valid_series = True
+                                category_target = "series"
                             elif len(seen_series) < MAX_SERIES:
-                                # Jika judul belum ada, dan slot 100 judul belum penuh, daftarkan!
                                 seen_series.add(group_title)
-                                is_valid_series = True
+                                category_target = "series"
+                            # Jika limit 100 judul penuh, category_target tetap None 
+                            # (Hanya masuk ke File Master, tidak masuk ke all_series.m3u)
+                                
+                        elif "film" in group_lower or "movie" in group_lower:
+                            category_target = "movie"
+                        elif "live" in group_lower or "upcoming" in group_lower:
+                            category_target = "live"
                 else:
-                    # Tambahkan baris URL atau atribut lain ke blok saat ini
                     if current_block:
                         current_block.append(line_str)
             
-            # Masukkan blok channel terakhir yang sedang diproses
-            if current_block and is_valid_series:
-                filtered_lines.extend(current_block)
-                filtered_lines.append("")
-                total_episodes += 1
-
-            # Tulis hasil filter ke file
-            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                f.write("\n".join(filtered_lines))
+            # === EKSEKUSI BLOK TERAKHIR ===
+            if current_block:
+                all_lines.extend(current_block)
+                all_lines.append("")
+                count_all += 1
                 
-            print(f"Sukses! Tersimpan {total_episodes} episode dari {len(seen_series)} judul SERIES berbeda.")
+                if category_target == "series":
+                    series_lines.extend(current_block)
+                    series_lines.append("")
+                    count_series += 1
+                elif category_target == "movie":
+                    movies_lines.extend(current_block)
+                    movies_lines.append("")
+                    count_movies += 1
+                elif category_target == "live":
+                    live_lines.extend(current_block)
+                    live_lines.append("")
+                    count_live += 1
+
+            # --- SIMPAN KE 4 FILE ---
+            with open(OUTPUT_ALL, "w", encoding="utf-8") as f:
+                f.write("\n".join(all_lines))
+            with open(OUTPUT_SERIES, "w", encoding="utf-8") as f:
+                f.write("\n".join(series_lines))
+            with open(OUTPUT_MOVIES, "w", encoding="utf-8") as f:
+                f.write("\n".join(movies_lines))
+            with open(OUTPUT_LIVE, "w", encoding="utf-8") as f:
+                f.write("\n".join(live_lines))
+                
+            print("Sukses! 4 File M3U berhasil dibuat:")
+            print(f"1. {OUTPUT_ALL} : {count_all} tayangan (Master)")
+            print(f"2. {OUTPUT_SERIES} : {count_series} episode (dari {len(seen_series)} Judul Series Unik)")
+            print(f"3. {OUTPUT_MOVIES} : {count_movies} tayangan")
+            print(f"4. {OUTPUT_LIVE} : {count_live} tayangan")
             return
 
-        # JIKA API MENGEMBALIKAN JSON (Fallback)
+        # =================================================================
+        # JIKA API MENGEMBALIKAN JSON (Fallback System)
+        # =================================================================
         try:
             data = response.json()
-            print("Mendeteksi format JSON. Memulai proses filter...")
+            print("Mendeteksi format JSON. Memulai proses generate 4 file...")
             
             channels_to_process = []
             if isinstance(data, list):
@@ -113,54 +171,77 @@ def generate_playlist():
                                 item["_global_a"] = global_a
                                 channels_to_process.append(item)
             
-            seen_series = set()
-            total_episodes = 0
+            # Siapkan penampung untuk 4 file
+            all_lines = ["#EXTM3U\n"]
+            series_lines = ["#EXTM3U\n"]
+            movies_lines = ["#EXTM3U\n"]
+            live_lines = ["#EXTM3U\n"]
             
-            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                f.write("#EXTM3U\n")
+            seen_series = set()
+            c_all = c_series = c_movies = c_live = 0
+            
+            for ch in channels_to_process:
+                name = ch.get("name", ch.get("title", ch.get("channel", "Unknown")))
+                logo = ch.get("logo", ch.get("image", ""))
+                group = ch.get("group", ch.get("category", ch.get("category_name", ch.get("_auto_group", "Vidio"))))
                 
-                for ch in channels_to_process:
-                    name = ch.get("name", ch.get("title", ch.get("channel", "Unknown")))
-                    logo = ch.get("logo", ch.get("image", ""))
-                    group = ch.get("group", ch.get("category", ch.get("category_name", ch.get("_auto_group", "Vidio"))))
-                    group_str = str(group)
+                group_title_original = str(group).strip()
+                group_lower = group_title_original.lower()
+                
+                stream_url = ch.get("url", ch.get("link", ""))
+                if not stream_url and "id" in ch:
+                    u = ch.get("u", ch.get("_global_u", "mbkidriss9@gmail.com"))
+                    x = ch.get("x", ch.get("_global_x", ""))
+                    a = ch.get("a", ch.get("_global_a", ""))
+                    ch_id = ch['id']
                     
-                    if "series" not in group_str.lower():
-                        continue 
-
-                    # Pengecekan limit Judul Unik
-                    if group_str in seen_series:
-                        pass # Sudah ada, lanjutkan (episode baru)
-                    elif len(seen_series) < MAX_SERIES:
-                        seen_series.add(group_str) # Daftarkan judul baru
-                    else:
-                        continue # Judul baru, tapi batasan 100 judul sudah penuh, abaikan.
-
-                    stream_url = ch.get("url", ch.get("link", ""))
+                    hls_url = f"https://boti.my.id/index.m3u8?u={u}&x={x}&a={a}&id={ch_id}&type=hls&api=video"
+                    dash_url = f"https://boti.my.id/index.mpd?u={u}&x={x}&a={a}&id={ch_id}&type=dash&api=video"
+                    drm_url = f"https://boti.my.id/index.php?u={u}&x={x}&a={a}&id={ch_id}&type=drm&api=video"
                     
-                    if not stream_url and "id" in ch:
-                        u = ch.get("u", ch.get("_global_u", "mbkidriss9@gmail.com"))
-                        x = ch.get("x", ch.get("_global_x", ""))
-                        a = ch.get("a", ch.get("_global_a", ""))
-                        ch_id = ch['id']
-                        
-                        hls_url = f"https://boti.my.id/index.m3u8?u={u}&x={x}&a={a}&id={ch_id}&type=hls&api=video"
-                        dash_url = f"https://boti.my.id/index.mpd?u={u}&x={x}&a={a}&id={ch_id}&type=dash&api=video"
-                        drm_url = f"https://boti.my.id/index.php?u={u}&x={x}&a={a}&id={ch_id}&type=drm&api=video"
-                        
-                        f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group_str}", {name} (HLS)\n')
-                        f.write(f'{hls_url}\n')
-                        
-                        f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group_str}", {name} (DASH)\n')
-                        f.write('#KODIPROP:inputstream=inputstream.adaptive\n')
-                        f.write('#KODIPROP:inputstream.adaptive.manifest_type=mpd\n')
-                        f.write('#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha\n') 
-                        f.write(f'#KODIPROP:inputstream.adaptive.license_key={drm_url}\n')
-                        f.write(f'{dash_url}\n')
-                        
-                        total_episodes += 1
-                        
-            print(f"Sukses! Tersimpan {total_episodes} episode dari {len(seen_series)} judul SERIES berbeda (JSON).")
+                    # Generate tag blok
+                    block = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group_title_original}", {name} (HLS)\n{hls_url}\n'
+                    block += f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group_title_original}", {name} (DASH)\n'
+                    block += '#KODIPROP:inputstream=inputstream.adaptive\n'
+                    block += '#KODIPROP:inputstream.adaptive.manifest_type=mpd\n'
+                    block += '#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha\n'
+                    block += f'#KODIPROP:inputstream.adaptive.license_key={drm_url}\n{dash_url}\n\n'
+                    
+                    # 1. Selalu tambahkan ke file Master
+                    all_lines.append(block)
+                    c_all += 1
+                    
+                    # 2. Tambahkan ke kategori spesifik
+                    if "series" in group_lower:
+                        if group_title_original in seen_series:
+                            series_lines.append(block)
+                            c_series += 1
+                        elif len(seen_series) < MAX_SERIES:
+                            seen_series.add(group_title_original)
+                            series_lines.append(block)
+                            c_series += 1
+                    elif "film" in group_lower or "movie" in group_lower:
+                        movies_lines.append(block)
+                        c_movies += 1
+                    elif "live" in group_lower or "upcoming" in group_lower:
+                        live_lines.append(block)
+                        c_live += 1
+
+            # --- SIMPAN KE 4 FILE ---
+            with open(OUTPUT_ALL, "w", encoding="utf-8") as f:
+                f.writelines(all_lines)
+            with open(OUTPUT_SERIES, "w", encoding="utf-8") as f:
+                f.writelines(series_lines)
+            with open(OUTPUT_MOVIES, "w", encoding="utf-8") as f:
+                f.writelines(movies_lines)
+            with open(OUTPUT_LIVE, "w", encoding="utf-8") as f:
+                f.writelines(live_lines)
+                
+            print("Sukses! 4 File M3U (JSON) berhasil dibuat:")
+            print(f"1. {OUTPUT_ALL} : {c_all} tayangan (Master)")
+            print(f"2. {OUTPUT_SERIES} : {c_series} episode (dari {len(seen_series)} Judul Series Unik)")
+            print(f"3. {OUTPUT_MOVIES} : {c_movies} tayangan")
+            print(f"4. {OUTPUT_LIVE} : {c_live} tayangan")
             
         except json.JSONDecodeError:
             print("Error: Output API bukan JSON dan bukan M3U yang valid.")
