@@ -18,47 +18,36 @@ def generate_playlist():
         response.raise_for_status() 
         content = response.text.strip()
         
-        # Jika API langsung membalikkan M3U
         if content.startswith("#EXTM3U"):
             with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                 f.write(content)
-            print(f"Sukses! File M3U berhasil diperbarui.")
+            print("Sukses! File M3U (Direct) berhasil diperbarui.")
             return
             
         try:
             data = response.json()
-            print("Membaca format JSON dan membedakan kategori bawaan...")
-            
             channels_to_process = []
             
-            # --- LOGIKA PENCARIAN KATEGORI OTOMATIS ---
-            
-            # SKENARIO A: JSON berupa List
+            # --- DETEKSI KATEGORI (List / Dict) ---
             if isinstance(data, list):
                 for item in data:
-                    # Model 1: [{"category_name": "Sports", "channels": [...]}]
                     if "channels" in item and isinstance(item["channels"], list):
                         cat_name = item.get("category", item.get("group", item.get("name", "Uncategorized")))
                         for ch in item["channels"]:
                             if isinstance(ch, dict):
                                 ch["_auto_group"] = cat_name
                                 channels_to_process.append(ch)
-                    # Model 2: Flat List [{"name": "Trans TV", "category": "Nasional"}]
                     elif isinstance(item, dict):
                         channels_to_process.append(item)
 
-            # SKENARIO B: JSON berupa Dictionary
             elif isinstance(data, dict):
-                # Ambil global auth keys jika ada di root JSON
                 global_u = data.get("u", "mbkidriss9@gmail.com")
                 global_x = data.get("x", "")
                 global_a = data.get("a", "")
                 
                 for key, value in data.items():
                     if isinstance(value, list):
-                        # Jika nama key bukan sekadar "data" atau "channels", jadikan nama Kategori
                         cat_name = "Vidio" if key.lower() in ["data", "channels", "list"] else key
-                        
                         for item in value:
                             if isinstance(item, dict):
                                 item["_auto_group"] = cat_name
@@ -67,34 +56,46 @@ def generate_playlist():
                                 item["_global_a"] = global_a
                                 channels_to_process.append(item)
             
-            # --- PENULISAN FILE M3U ---
+            # --- PENULISAN FILE M3U & LOGIKA DRM ---
             count = 0
             with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
                 
                 for ch in channels_to_process:
-                    # Pertahankan huruf kapital/kecil aslinya
                     name = ch.get("name", ch.get("title", ch.get("channel", "Unknown")))
                     logo = ch.get("logo", ch.get("image", ""))
-                    
-                    # Prioritas Kategori: Ambil dari dalam object dulu, jika kosong pakai auto_group
                     group = ch.get("group", ch.get("category", ch.get("category_name", ch.get("_auto_group", "Vidio"))))
                     
                     stream_url = ch.get("url", ch.get("link", ""))
+                    
+                    # Cek apakah channel ini butuh DRM dari data JSON-nya
+                    is_drm = ch.get("drm", False) or ch.get("is_drm", False) or ("drm" in str(ch).lower())
+                    license_key = ch.get("license", ch.get("clearkey", ch.get("drm_key", "")))
                     
                     if not stream_url and "id" in ch:
                         u = ch.get("u", ch.get("_global_u", "mbkidriss9@gmail.com"))
                         x = ch.get("x", ch.get("_global_x", ""))
                         a = ch.get("a", ch.get("_global_a", ""))
                         
-                        stream_url = f"https://boti.my.id/index.m3u8?u={u}&x={x}&a={a}&id={ch['id']}&type=hls&api=video"
+                        if is_drm:
+                            # Merakit link DRM/DASH untuk channel Live yang dienkripsi
+                            stream_url = f"https://boti.my.id/index.mpd?u={u}&x={x}&a={a}&id={ch['id']}&type=dash&api=video"
+                            # Jika API murni butuh endpoint drm, Anda bisa mengubah type=dash di atas menjadi type=drm
+                        else:
+                            # Merakit link HLS standar
+                            stream_url = f"https://boti.my.id/index.m3u8?u={u}&x={x}&a={a}&id={ch['id']}&type=hls&api=video"
                             
                     if stream_url:
+                        # Jika ada license key (ClearKey/Widevine), tambahkan tag KODIPROP agar dibaca OTT Navigator/TiviMate
+                        if is_drm and license_key:
+                            f.write(f'#KODIPROP:inputstream.adaptive.license_type=clearkey\n')
+                            f.write(f'#KODIPROP:inputstream.adaptive.license_key={license_key}\n')
+                            
                         f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name}\n')
                         f.write(f'{stream_url}\n')
                         count += 1
                         
-            print(f"Sukses! {count} channel berhasil di-generate beserta kategorinya.")
+            print(f"Sukses! {count} channel berhasil di-generate beserta kategorinya (Termasuk dukungan DRM).")
             
         except json.JSONDecodeError:
             print("Error: Output API tidak valid.")
