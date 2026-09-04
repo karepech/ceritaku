@@ -18,29 +18,34 @@ def generate_playlist():
         response.raise_for_status() 
         content = response.text.strip()
         
+        # Jika API langsung membalikkan M3U
         if content.startswith("#EXTM3U"):
             with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                 f.write(content)
-            print("Sukses! File M3U utuh.")
+            print(f"Sukses! File M3U berhasil diperbarui.")
             return
             
         try:
             data = response.json()
+            print("Membaca format JSON dan membedakan kategori bawaan...")
+            
             channels_to_process = []
             
-            # --- PARSING STRUKTUR JSON ---
+            # --- LOGIKA PENCARIAN KATEGORI OTOMATIS ---
+            
+            # SKENARIO A: JSON berupa List
             if isinstance(data, list):
                 for item in data:
-                    if isinstance(item, dict):
-                        if "channels" in item and isinstance(item["channels"], list):
-                            cat = item.get("category", item.get("group", item.get("name", "Vidio")))
-                            for ch in item["channels"]:
-                                if isinstance(ch, dict):
-                                    ch["_auto_group"] = cat
-                                    channels_to_process.append(ch)
-                        else:
-                            channels_to_process.append(item)
-                            
+                    if "channels" in item and isinstance(item["channels"], list):
+                        cat_name = item.get("category", item.get("group", item.get("name", "Uncategorized")))
+                        for ch in item["channels"]:
+                            if isinstance(ch, dict):
+                                ch["_auto_group"] = cat_name
+                                channels_to_process.append(ch)
+                    elif isinstance(item, dict):
+                        channels_to_process.append(item)
+
+            # SKENARIO B: JSON berupa Dictionary
             elif isinstance(data, dict):
                 global_u = data.get("u", "mbkidriss9@gmail.com")
                 global_x = data.get("x", "")
@@ -48,16 +53,16 @@ def generate_playlist():
                 
                 for key, value in data.items():
                     if isinstance(value, list):
-                        cat = "Vidio" if key.lower() in ["data", "channels", "list"] else key
+                        cat_name = "Vidio" if key.lower() in ["data", "channels", "list"] else key
                         for item in value:
                             if isinstance(item, dict):
-                                item["_auto_group"] = cat
+                                item["_auto_group"] = cat_name
                                 item["_global_u"] = global_u
                                 item["_global_x"] = global_x
                                 item["_global_a"] = global_a
                                 channels_to_process.append(item)
             
-            # --- PENULISAN M3U DENGAN 3 FORMAT (HLS, DASH, DRM) ---
+            # --- PENULISAN FILE M3U ---
             count = 0
             with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n")
@@ -67,46 +72,39 @@ def generate_playlist():
                     logo = ch.get("logo", ch.get("image", ""))
                     group = ch.get("group", ch.get("category", ch.get("category_name", ch.get("_auto_group", "Vidio"))))
                     
-                    # Ambil token parameter
-                    u = ch.get("u", ch.get("_global_u", "mbkidriss9@gmail.com"))
-                    x = ch.get("x", ch.get("_global_x", ""))
-                    a = ch.get("a", ch.get("_global_a", ""))
-                    ch_id = ch.get("id", "")
+                    stream_url = ch.get("url", ch.get("link", ""))
                     
-                    license_key = ch.get("license", ch.get("clearkey", ch.get("drm_key", "")))
-                    
-                    if ch_id:
-                        # 1. FORMAT HLS (.m3u8)
-                        url_hls = f"https://boti.my.id/index.m3u8?u={u}&x={x}&a={a}&id={ch_id}&type=hls&api=video"
-                        f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} [HLS]\n')
-                        f.write(f'{url_hls}\n')
+                    if not stream_url and "id" in ch:
+                        # Ambil parameter autentikasi
+                        u = ch.get("u", ch.get("_global_u", "mbkidriss9@gmail.com"))
+                        x = ch.get("x", ch.get("_global_x", ""))
+                        a = ch.get("a", ch.get("_global_a", ""))
+                        ch_id = ch['id']
                         
-                        # 2. FORMAT DASH (.mpd)
-                        url_dash = f"https://boti.my.id/index.mpd?u={u}&x={x}&a={a}&id={ch_id}&type=dash&api=video"
-                        f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} [DASH]\n')
-                        f.write(f'{url_dash}\n')
+                        # Generate ke-3 link sesuai format
+                        hls_url = f"https://boti.my.id/index.m3u8?u={u}&x={x}&a={a}&id={ch_id}&type=hls&api=video"
+                        dash_url = f"https://boti.my.id/index.mpd?u={u}&x={x}&a={a}&id={ch_id}&type=dash&api=video"
+                        drm_url = f"https://boti.my.id/index.php?u={u}&x={x}&a={a}&id={ch_id}&type=drm&api=video"
                         
-                        # 3. FORMAT DRM (index.php)
-                        url_drm = f"https://boti.my.id/index.php?u={u}&x={x}&a={a}&id={ch_id}&type=drm&api=video"
-                        if license_key:
-                            f.write(f'#KODIPROP:inputstream.adaptive.license_type=clearkey\n')
-                            f.write(f'#KODIPROP:inputstream.adaptive.license_key={license_key}\n')
-                        f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} [DRM]\n')
-                        f.write(f'{url_drm}\n')
+                        # 1. Tulis versi HLS (Tanpa tag DRM)
+                        f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (HLS)\n')
+                        f.write(f'{hls_url}\n')
                         
-                        count += 3
-                    
-                    elif "url" in ch or "link" in ch:
-                        # Fallback jika API langsung memberikan direct link
-                        direct_url = ch.get("url", ch.get("link", ""))
-                        f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name}\n')
-                        f.write(f'{direct_url}\n')
+                        # 2. Tulis versi DASH dengan lisensi DRM
+                        f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (DASH)\n')
+                        f.write('#KODIPROP:inputstream=inputstream.adaptive\n')
+                        f.write('#KODIPROP:inputstream.adaptive.manifest_type=mpd\n')
+                        # Untuk Vidio biasanya menggunakan Widevine
+                        f.write('#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha\n') 
+                        f.write(f'#KODIPROP:inputstream.adaptive.license_key={drm_url}\n')
+                        f.write(f'{dash_url}\n')
+                        
                         count += 1
                         
-            print(f"Sukses! Total {count} baris stream (HLS, DASH, DRM) berhasil di-generate.")
+            print(f"Sukses! {count} channel berhasil di-generate. (Total {count*2} link karena HLS & DASH digabung).")
             
         except json.JSONDecodeError:
-            print("Error: Output API tidak valid.")
+            print("Error: Output API tidak valid JSON.")
             
     except requests.exceptions.RequestException as e:
         print(f"Koneksi ke API gagal: {e}")
