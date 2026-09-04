@@ -29,7 +29,7 @@ jobs:
       - name: Run Python Script
         run: python generate_m3u.py
 
-            - name: Commit and Push changes
+      - name: Commit and Push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
