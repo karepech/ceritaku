@@ -1,109 +1,110 @@
 import requests
-import json
+import re
 
-# === KONFIGURASI ===
+# === KONFIGURASI FILE OUTPUT ===
 API_URL = "https://boti.my.id/index.php?api=playlist&email=mbkidriss9%40gmail.com&password=12345678"
-OUTPUT_FILE = "live_only.m3u"
+OUTPUT_LIVE = "live.m3u"
+OUTPUT_UPCOMING = "upcoming.m3u"
 
-# Default Token (Fallback jika diperlukan)
+# Token Default (Fallback)
 DEFAULT_U = "mbkidriss9%40gmail.com"
 DEFAULT_X = "644_SrZsWczYRmp5J7Xx"
 DEFAULT_A = "eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzAzOH0.UHImVkHT2jujFUpPlo_vfULpyt1lZArjsLgw-CX7lVc"
 
 def generate_live_playlist():
-    print(f"Mengambil data API Khusus LIVE...\nURL: {API_URL}")
+    print(f"Mengambil data Live & Upcoming...\nURL: {API_URL}")
     
     try:
-        # KUNCI UTAMA DARI GAMBAR ANDA: Tambahkan Accept application/json
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-            "Accept": "application/json" 
-        }
-        
-        response = requests.get(API_URL, headers=headers, timeout=15)
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+        response = requests.get(API_URL, headers=headers, timeout=20)
         response.raise_for_status() 
+        content = response.text.strip()
         
-        try:
-            data = response.json()
-            print("Sukses membaca format JSON dari server. Memulai filter kategori Live...")
+        if not content.startswith("#EXTM3U"):
+            print("Error: Output dari API kosong atau bukan format M3U.")
+            return
+
+        live_lines = ["#EXTM3U\n"]
+        upcoming_lines = ["#EXTM3U\n"]
+        
+        c_live = c_upcoming = 0
+        
+        # --- METODE BARU: MENGUMPULKAN BLOK DENGAN AMAN ---
+        lines = content.splitlines()
+        blocks = []
+        curr_block = []
+        
+        for line in lines[1:]:
+            line = line.strip()
+            if not line: continue
             
-            channels = []
+            if line.startswith("#EXTINF"):
+                if curr_block:
+                    blocks.append("\n".join(curr_block))
+                curr_block = [line]
+            else:
+                if curr_block:
+                    curr_block.append(line)
+        if curr_block:
+            blocks.append("\n".join(curr_block))
             
-            # --- 1. MENYUSUN DATA JSON (Apapun bentuk dari servernya) ---
-            if isinstance(data, list):
-                for item in data:
-                    if "channels" in item and isinstance(item["channels"], list):
-                        cat = item.get("category", item.get("group", item.get("name", "Uncategorized")))
-                        for ch in item["channels"]:
-                            if isinstance(ch, dict):
-                                ch["_auto_group"] = cat
-                                channels.append(ch)
-                    elif isinstance(item, dict):
-                        channels.append(item)
-            elif isinstance(data, dict):
-                # Ekstrak token global (opsional jika ada di root JSON)
-                global_u = data.get("u", DEFAULT_U)
-                global_x = data.get("x", DEFAULT_X)
-                global_a = data.get("a", DEFAULT_A)
+        # --- MEMPROSES SETIAP BLOK ---
+        for block in blocks:
+            m_group = re.search(r'group-title="([^"]+)"', block, re.IGNORECASE)
+            group = m_group.group(1).strip() if m_group else "Uncategorized"
+            group_lower = group.lower()
+            
+            # Hanya proses kategori Live dan Upcoming
+            is_upcoming = "upcoming" in group_lower
+            is_live = "live" in group_lower or "tv" in group_lower or "nasional" in group_lower
+            
+            if not is_upcoming and not is_live:
+                continue
                 
-                for key, value in data.items():
-                    if isinstance(value, list):
-                        cat = "Vidio" if key.lower() in ["data", "channels", "list"] else key
-                        for item in value:
-                            if isinstance(item, dict):
-                                item["_auto_group"] = cat
-                                item["_global_u"] = global_u
-                                item["_global_x"] = global_x
-                                item["_global_a"] = global_a
-                                channels.append(item)
+            m_name = re.search(r'#EXTINF.*?,(.*)', block)
+            name = m_name.group(1).strip() if m_name else "Unknown"
             
-            # --- 2. PENYARINGAN & PEMBUATAN M3U ---
-            out_lines = ["#EXTM3U\n"]
-            count = 0
+            m_logo = re.search(r'tvg-logo="([^"]+)"', block, re.IGNORECASE)
+            logo = m_logo.group(1) if m_logo else ""
             
-            for ch in channels:
-                name = ch.get("name", ch.get("title", ch.get("channel", "Unknown")))
-                logo = ch.get("logo", ch.get("image", ""))
-                group = ch.get("group", ch.get("category", ch.get("category_name", ch.get("_auto_group", "Vidio"))))
-                group_lower = str(group).lower()
+            m_id = re.search(r'id=(\d+)', block)
+            m_u = re.search(r'u=([^&\s\n]+)', block)
+            m_x = re.search(r'x=([^&\s\n]+)', block)
+            m_a = re.search(r'a=([^&\s\n]+)', block)
+            
+            if m_id:
+                ch_id = m_id.group(1)
+                u = m_u.group(1) if m_u else DEFAULT_U
+                x = m_x.group(1) if m_x else DEFAULT_X
+                a = m_a.group(1) if m_a else DEFAULT_A
                 
-                # Filter khusus untuk Live / TV
-                if "live" in group_lower or "tv" in group_lower or "nasional" in group_lower or "upcoming" in group_lower:
+                hls_url = f"https://boti.my.id/index.m3u8?u={u}&x={x}&a={a}&id={ch_id}&type=hls&api=video"
+                dash_url = f"https://boti.my.id/index.mpd?u={u}&x={x}&a={a}&id={ch_id}&type=dash&api=video"
+                drm_url = f"https://boti.my.id/index.php?u={u}&x={x}&a={a}&id={ch_id}&type=drm&api=video"
+                
+                output_block = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (HLS)\n{hls_url}\n'
+                output_block += f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (DASH)\n'
+                output_block += '#KODIPROP:inputstream=inputstream.adaptive\n'
+                output_block += '#KODIPROP:inputstream.adaptive.manifest_type=mpd\n'
+                output_block += '#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha\n'
+                output_block += f'#KODIPROP:inputstream.adaptive.license_key={drm_url}\n{dash_url}\n\n'
+                
+                # Distribusi ke File
+                if is_upcoming:
+                    upcoming_lines.append(output_block)
+                    c_upcoming += 1
+                elif is_live:
+                    live_lines.append(output_block)
+                    c_live += 1
                     
-                    if "id" in ch:
-                        ch_id = ch['id']
-                        # Ambil parameter token (Prioritas: Data Channel > Data Global > Fallback)
-                        u = ch.get("u", ch.get("_global_u", DEFAULT_U))
-                        x = ch.get("x", ch.get("_global_x", DEFAULT_X))
-                        a = ch.get("a", ch.get("_global_a", DEFAULT_A))
-                        
-                        # RAKIT URL SESUAI STANDAR DOKUMENTASI DEVELOPER
-                        hls_url = f"https://boti.my.id/index.m3u8?u={u}&x={x}&a={a}&id={ch_id}&type=hls"
-                        dash_url = f"https://boti.my.id/index.mpd?u={u}&x={x}&a={a}&id={ch_id}&type=dash"
-                        drm_url = f"https://boti.my.id/index.php?u={u}&x={x}&a={a}&id={ch_id}&type=drm"
-                        
-                        # Susun blok M3U (HLS dan DASH DRM)
-                        block = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (HLS)\n{hls_url}\n'
-                        block += f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}", {name} (DASH)\n'
-                        block += '#KODIPROP:inputstream=inputstream.adaptive\n'
-                        block += '#KODIPROP:inputstream.adaptive.manifest_type=mpd\n'
-                        block += '#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha\n'
-                        block += f'#KODIPROP:inputstream.adaptive.license_key={drm_url}\n{dash_url}\n\n'
-                        
-                        out_lines.append(block)
-                        count += 1
-                        
-            # Simpan hasil akhir
-            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                f.writelines(out_lines)
-                
-            print(f"Sempurna! {count} channel Live berhasil dirakit dari JSON dengan akurat.")
+        # Simpan file
+        with open(OUTPUT_LIVE, "w", encoding="utf-8") as f: f.writelines(live_lines)
+        with open(OUTPUT_UPCOMING, "w", encoding="utf-8") as f: f.writelines(upcoming_lines)
             
-        except json.JSONDecodeError:
-            print("Error: Meskipun sudah memakai header JSON, server masih menolak. Pastikan email & password di API_URL benar.")
-            
-    except requests.exceptions.RequestException as e:
-        print(f"Koneksi ke API gagal: {e}")
+        print(f"Sukses! Live: {c_live} | Upcoming: {c_upcoming}")
+        
+    except Exception as e:
+        print(f"Terjadi kesalahan: {e}")
 
 if __name__ == "__main__":
     generate_live_playlist()
