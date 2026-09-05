@@ -1,0 +1,631 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/VEbUp3IIvV32DQBn-03sSMCArtg=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5285547/970981.jpg" group-title="LIVE TV - TV Nasional", FTV Pagi : Cintaku Zonk Ke Pelaminan (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=204&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/VEbUp3IIvV32DQBn-03sSMCArtg=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5285547/970981.jpg" group-title="LIVE TV - TV Nasional", FTV Pagi : Cintaku Zonk Ke Pelaminan (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=204&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=204&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/gxy8QH6sCBLPn-U8t43dA0neRkE=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/205/indosiar-d9a3d0.jpg" group-title="LIVE TV - TV Nasional", Kisah Nyata Pagi : Petaka Dibalik Keretakan Rumah Tanggaku (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=205&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/gxy8QH6sCBLPn-U8t43dA0neRkE=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/205/indosiar-d9a3d0.jpg" group-title="LIVE TV - TV Nasional", Kisah Nyata Pagi : Petaka Dibalik Keretakan Rumah Tanggaku (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=205&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=205&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/bWhkAc4BN7reztqr_lDJc7om87w=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5284593/767792.png" group-title="LIVE TV - TV Nasional", Mega Bollywood : Pyaar Toh Hona Hi Tha (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=782&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/bWhkAc4BN7reztqr_lDJc7om87w=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5284593/767792.png" group-title="LIVE TV - TV Nasional", Mega Bollywood : Pyaar Toh Hona Hi Tha (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=782&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=782&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/wVMpYd5wTob7JQJ62BWlPTWG--Y=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/783/tvone-bb42ce.jpg" group-title="LIVE TV - TV Nasional", Pagi-Pagi Seru (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=783&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/wVMpYd5wTob7JQJ62BWlPTWG--Y=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/783/tvone-bb42ce.jpg" group-title="LIVE TV - TV Nasional", Pagi-Pagi Seru (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=783&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=783&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/k-sY_yuIcw_2WlMiaRGVZf_ctXI=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg" group-title="LIVE TV - TV Nasional", Ungkap (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=206&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/k-sY_yuIcw_2WlMiaRGVZf_ctXI=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg" group-title="LIVE TV - TV Nasional", Ungkap (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=206&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=206&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/q2tpT2-AjDqonv5M-q5SxihUuDw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6441/tvri-tv-stream-f6cbb3.jpg" group-title="LIVE TV - TV Nasional", Mimbar Agama Hindu (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6441&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/q2tpT2-AjDqonv5M-q5SxihUuDw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6441/tvri-tv-stream-f6cbb3.jpg" group-title="LIVE TV - TV Nasional", Mimbar Agama Hindu (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6441&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6441&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/3L_QHkQKeNS3CiLUj1Ya4s08I3Q=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/5415/jaktv-72a5da.jpg" group-title="LIVE TV - TV Nasional", Cona Blue (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=5415&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/3L_QHkQKeNS3CiLUj1Ya4s08I3Q=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/5415/jaktv-72a5da.jpg" group-title="LIVE TV - TV Nasional", Cona Blue (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=5415&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=5415&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/hEIoJ7adV7Pjb8EgAO5Kkrvni8s=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/874/kompas-tv-98863c.jpg" group-title="LIVE TV - TV Nasional", Berita Utama (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=874&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/hEIoJ7adV7Pjb8EgAO5Kkrvni8s=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/874/kompas-tv-98863c.jpg" group-title="LIVE TV - TV Nasional", Berita Utama (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=874&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=874&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/GRiO5cAOau_WcE1lzhFq51j1eAY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/777/metro-tv-2eba56.jpg" group-title="LIVE TV - TV Nasional", Zona Bisnis (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=777&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/GRiO5cAOau_WcE1lzhFq51j1eAY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/777/metro-tv-2eba56.jpg" group-title="LIVE TV - TV Nasional", Zona Bisnis (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=777&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=777&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/IReT-5y6B0A3t-dMZBdvamR74ww=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/1561/rtv-48c719.jpg" group-title="LIVE TV - TV Nasional", Metal Cardbot (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=1561&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/IReT-5y6B0A3t-dMZBdvamR74ww=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/1561/rtv-48c719.jpg" group-title="LIVE TV - TV Nasional", Metal Cardbot (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=1561&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=1561&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/po6DDg81oPro90ij_7UVOqiMZ98=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/875/mdtv-ff5756.jpg" group-title="LIVE TV - TV Nasional", Sensasihot (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=875&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/po6DDg81oPro90ij_7UVOqiMZ98=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/875/mdtv-ff5756.jpg" group-title="LIVE TV - TV Nasional", Sensasihot (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=875&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=875&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/BaOhOMeyQ6fF-jCy0ej0sS_we5c=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18280/berita-satu-f3779f.jpg" group-title="LIVE TV - TV Nasional", Investor Market Today (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18280&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/BaOhOMeyQ6fF-jCy0ej0sS_we5c=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18280/berita-satu-f3779f.jpg" group-title="LIVE TV - TV Nasional", Investor Market Today (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18280&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18280&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/_BxJeS85VII-ISq9BAZ9MWlAw30=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6165/btv-bd893c.jpg" group-title="LIVE TV - TV Nasional", Investor Market Today (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6165&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/_BxJeS85VII-ISq9BAZ9MWlAw30=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6165/btv-bd893c.jpg" group-title="LIVE TV - TV Nasional", Investor Market Today (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6165&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6165&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/5HMNjpeS6Q0Y2Ao9oSDAaW3IHaY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18162/garuda-tv-b27da3.jpg" group-title="LIVE TV - TV Nasional", Anak Indonesia (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18162&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/5HMNjpeS6Q0Y2Ao9oSDAaW3IHaY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18162/garuda-tv-b27da3.jpg" group-title="LIVE TV - TV Nasional", Anak Indonesia (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18162&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18162&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/gQsLCQtTmBo5d8ntn--ztw6BqNY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/9713/jawa-pos-tv-779e10.jpg" group-title="LIVE TV - TV Nasional", Musica Hits (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=9713&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/gQsLCQtTmBo5d8ntn--ztw6BqNY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/9713/jawa-pos-tv-779e10.jpg" group-title="LIVE TV - TV Nasional", Musica Hits (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=9713&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=9713&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/kb9YJxwGUw22IXVI8dGwpDltMl0=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7464/ajwa-tv-dad8c3.jpg" group-title="LIVE TV - TV Nasional", Pesantren Dan Rock N Roll (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7464&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/kb9YJxwGUw22IXVI8dGwpDltMl0=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7464/ajwa-tv-dad8c3.jpg" group-title="LIVE TV - TV Nasional", Pesantren Dan Rock N Roll (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7464&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7464&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/I0RnDq0LuQmzX-3UNATgRJ4ftxQ=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7432/nusantara-tv-b373d0.jpg" group-title="LIVE TV - TV Nasional", Nusantara Economic Updates (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7432&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/I0RnDq0LuQmzX-3UNATgRJ4ftxQ=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7432/nusantara-tv-b373d0.jpg" group-title="LIVE TV - TV Nasional", Nusantara Economic Updates (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7432&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7432&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/QZT3Rz43nCZH_USTXiwmuK3rcZw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6482/daai-tv-83240c.jpg" group-title="LIVE TV - TV Nasional", Bincang Sehati (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6482&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/QZT3Rz43nCZH_USTXiwmuK3rcZw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6482/daai-tv-83240c.jpg" group-title="LIVE TV - TV Nasional", Bincang Sehati (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6482&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6482&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/OjwFYSw1LBL0_wdt6Q5fkrNjnio=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/9714/jawa-pos-tv-da3bbf.jpg" group-title="LIVE TV - TV Nasional", Bintang Kecil (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=9714&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/OjwFYSw1LBL0_wdt6Q5fkrNjnio=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/9714/jawa-pos-tv-da3bbf.jpg" group-title="LIVE TV - TV Nasional", Bintang Kecil (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=9714&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=9714&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/nkgtwd5f9lgiHwuLSBTFfZ2Usj4=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6784/arirang-12980d.jpg" group-title="LIVE TV - Hiburan", Culture Crunch [L] (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6784&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/nkgtwd5f9lgiHwuLSBTFfZ2Usj4=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6784/arirang-12980d.jpg" group-title="LIVE TV - Hiburan", Culture Crunch [L] (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6784&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6784&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/WPWZbvGP8QAtCzAxNhvRp9E-J18=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7619/musica-e98c30.jpg" group-title="LIVE TV - Hiburan", MUSICA (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7619&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/WPWZbvGP8QAtCzAxNhvRp9E-J18=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7619/musica-e98c30.jpg" group-title="LIVE TV - Hiburan", MUSICA (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7619&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7619&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/nNXh7qb2ZgetCPk7CN7hyyoKqLo=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6410/aljazeera-f65dea.jpg" group-title="LIVE TV - Berita", Newshour (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6410&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/nNXh7qb2ZgetCPk7CN7hyyoKqLo=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6410/aljazeera-f65dea.jpg" group-title="LIVE TV - Berita", Newshour (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6410&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6410&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/wVMpYd5wTob7JQJ62BWlPTWG--Y=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/783/tvone-bb42ce.jpg" group-title="LIVE TV - Berita", Pagi-Pagi Seru (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=783&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/wVMpYd5wTob7JQJ62BWlPTWG--Y=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/783/tvone-bb42ce.jpg" group-title="LIVE TV - Berita", Pagi-Pagi Seru (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=783&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=783&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/hEIoJ7adV7Pjb8EgAO5Kkrvni8s=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/874/kompas-tv-98863c.jpg" group-title="LIVE TV - Berita", Berita Utama (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=874&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/hEIoJ7adV7Pjb8EgAO5Kkrvni8s=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/874/kompas-tv-98863c.jpg" group-title="LIVE TV - Berita", Berita Utama (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=874&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=874&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/GRiO5cAOau_WcE1lzhFq51j1eAY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/777/metro-tv-2eba56.jpg" group-title="LIVE TV - Berita", Zona Bisnis (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=777&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/GRiO5cAOau_WcE1lzhFq51j1eAY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/777/metro-tv-2eba56.jpg" group-title="LIVE TV - Berita", Zona Bisnis (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=777&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=777&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/5HMNjpeS6Q0Y2Ao9oSDAaW3IHaY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18162/garuda-tv-b27da3.jpg" group-title="LIVE TV - Berita", Anak Indonesia (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18162&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/5HMNjpeS6Q0Y2Ao9oSDAaW3IHaY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18162/garuda-tv-b27da3.jpg" group-title="LIVE TV - Berita", Anak Indonesia (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18162&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18162&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/BaOhOMeyQ6fF-jCy0ej0sS_we5c=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18280/berita-satu-f3779f.jpg" group-title="LIVE TV - Berita", Investor Market Today (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18280&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/BaOhOMeyQ6fF-jCy0ej0sS_we5c=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18280/berita-satu-f3779f.jpg" group-title="LIVE TV - Berita", Investor Market Today (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18280&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18280&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/-fJcdGieHvetPDosR_ZwDD-YE5M=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/19046/sin-po-tv-c5cad0.jpg" group-title="LIVE TV - Berita", Catatan Kriminal (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=19046&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/-fJcdGieHvetPDosR_ZwDD-YE5M=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/19046/sin-po-tv-c5cad0.jpg" group-title="LIVE TV - Berita", Catatan Kriminal (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=19046&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=19046&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/HyJOKvUu7_oA8wWozEtI-3W1v1s=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/5075/dw-english-4aa968.jpg" group-title="LIVE TV - Berita", Global US (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=5075&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/HyJOKvUu7_oA8wWozEtI-3W1v1s=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/5075/dw-english-4aa968.jpg" group-title="LIVE TV - Berita", Global US (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=5075&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=5075&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/W08g9zS7QaGtPMErcsZ81Va_dKc=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6412/euronews-795a60.jpg" group-title="LIVE TV - Berita", The European debrief (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6412&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/W08g9zS7QaGtPMErcsZ81Va_dKc=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6412/euronews-795a60.jpg" group-title="LIVE TV - Berita", The European debrief (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6412&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6412&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/ylbaeruDsVWau2s0PNo5jyEL9XE=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7150/abc-australia-694ecd.jpg" group-title="LIVE TV - Berita", Landline - Episode 28 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7150&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/ylbaeruDsVWau2s0PNo5jyEL9XE=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7150/abc-australia-694ecd.jpg" group-title="LIVE TV - Berita", Landline - Episode 28 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7150&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7150&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/I0RnDq0LuQmzX-3UNATgRJ4ftxQ=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7432/nusantara-tv-b373d0.jpg" group-title="LIVE TV - Berita", Nusantara Economic Updates (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7432&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/I0RnDq0LuQmzX-3UNATgRJ4ftxQ=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7432/nusantara-tv-b373d0.jpg" group-title="LIVE TV - Berita", Nusantara Economic Updates (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7432&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7432&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/i_FKiCjf7lWJtJy8QqSg6bvb7Qw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/12784/africanews-d41bbb.jpg" group-title="LIVE TV - Berita", News (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=12784&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/i_FKiCjf7lWJtJy8QqSg6bvb7Qw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/12784/africanews-d41bbb.jpg" group-title="LIVE TV - Berita", News (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=12784&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=12784&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/NtYMeVNZhPNyxZukYP38ohlF988=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/8237/mentari-tv-01d2b0.jpg" group-title="LIVE TV - Anak dan Ilmu Pengetahuan", Katuri (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=8237&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/NtYMeVNZhPNyxZukYP38ohlF988=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/8237/mentari-tv-01d2b0.jpg" group-title="LIVE TV - Anak dan Ilmu Pengetahuan", Katuri (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=8237&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=8237&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/zE793GEKRyoy_BJxLu-Db2tsz1k=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18622/daystar-tv-4eddcd.jpg" group-title="LIVE TV - Religi", Paula Today (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18622&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/zE793GEKRyoy_BJxLu-Db2tsz1k=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18622/daystar-tv-4eddcd.jpg" group-title="LIVE TV - Religi", Paula Today (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18622&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18622&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/kb9YJxwGUw22IXVI8dGwpDltMl0=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7464/ajwa-tv-dad8c3.jpg" group-title="LIVE TV - Religi", Pesantren Dan Rock N Roll (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7464&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/kb9YJxwGUw22IXVI8dGwpDltMl0=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7464/ajwa-tv-dad8c3.jpg" group-title="LIVE TV - Religi", Pesantren Dan Rock N Roll (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7464&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=7464&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/uyQ4DSnHtTWmJQD9OTs5liQDeBs=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6852/al-quran-al-kareem-tv-62095c.jpg" group-title="LIVE TV - Religi", Makkah TV (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6852&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/uyQ4DSnHtTWmJQD9OTs5liQDeBs=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6852/al-quran-al-kareem-tv-62095c.jpg" group-title="LIVE TV - Religi", Makkah TV (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6852&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6852&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/cqM8vf1xK3YG5E3XF4DiuQ6LxR0=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6898/u-channel-tv-cd4f34.jpg" group-title="LIVE TV - Religi", U-Channel TV (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6898&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/cqM8vf1xK3YG5E3XF4DiuQ6LxR0=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6898/u-channel-tv-cd4f34.jpg" group-title="LIVE TV - Religi", U-Channel TV (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6898&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6898&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/c_718cCh2RH2UIUd4C3juKKZ9Wc=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/12607/dmi-tv-8f4cb7.jpg" group-title="LIVE TV - Religi", DMI TV (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=12607&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/c_718cCh2RH2UIUd4C3juKKZ9Wc=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/12607/dmi-tv-8f4cb7.jpg" group-title="LIVE TV - Religi", DMI TV (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=12607&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=12607&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/RnQ839xVET9GR8xrrxk3luoyw2w=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18249/li-ning-china-masters-2026-round-of-32-court-1-db0daa.jpg" group-title="LIVE NOW - LI-NING China Masters 2026 - Round Of 32 (Court 1)", Lakshya Sen (IND) vs Victor Lai (CAN) - Men's Singles Round of 32 | LI-NING China Masters 2026 - 08:00 WIB 02-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18249&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/RnQ839xVET9GR8xrrxk3luoyw2w=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18249/li-ning-china-masters-2026-round-of-32-court-1-db0daa.jpg" group-title="LIVE NOW - LI-NING China Masters 2026 - Round Of 32 (Court 1)", Lakshya Sen (IND) vs Victor Lai (CAN) - Men's Singles Round of 32 | LI-NING China Masters 2026 - 08:00 WIB 02-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18249&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18249&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/KhvAVzPfBO9axoX_YQFnCaVWoJY=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5303660/ff6c68.jpg" group-title="LIVE NOW - LI-NING China Masters 2026 - Round Of 32 (Court 2)", Panitchaphon Teeraratsakul (THA) vs Christo Popov (FRA) - Men's Singles Round of 32 | LI-NING China Masters 2026 - 08:00 WIB 02-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18250&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/KhvAVzPfBO9axoX_YQFnCaVWoJY=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5303660/ff6c68.jpg" group-title="LIVE NOW - LI-NING China Masters 2026 - Round Of 32 (Court 2)", Panitchaphon Teeraratsakul (THA) vs Christo Popov (FRA) - Men's Singles Round of 32 | LI-NING China Masters 2026 - 08:00 WIB 02-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18250&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18250&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/suQqQ8WHleR1kG85aF2Cemhm3fw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18252/li-ning-china-masters-2026-round-of-32-court-3-94d9e1.jpg" group-title="LIVE NOW - LI-NING China Masters 2026 - Round Of 32 (Court 3)", Julien Carraggi (BEL) vs Yudai Okimoto (JPN) - Men's Singles Round of 32 | LI-NING China Masters 2026 - 08:00 WIB 02-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18252&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/suQqQ8WHleR1kG85aF2Cemhm3fw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18252/li-ning-china-masters-2026-round-of-32-court-3-94d9e1.jpg" group-title="LIVE NOW - LI-NING China Masters 2026 - Round Of 32 (Court 3)", Julien Carraggi (BEL) vs Yudai Okimoto (JPN) - Men's Singles Round of 32 | LI-NING China Masters 2026 - 08:00 WIB 02-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18252&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18252&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/G6MkjekDheTo9lCCS5KRM-irPU8=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297201/4984a3.png" group-title="LIVE NOW - SPOTV", Alexander Zverev vs Lorenzo Sonego - Men's Singles Round 1 | US Open Tennis Championships 2026 - 07:50 WIB 02-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17139&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/G6MkjekDheTo9lCCS5KRM-irPU8=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297201/4984a3.png" group-title="LIVE NOW - SPOTV", Alexander Zverev vs Lorenzo Sonego - Men's Singles Round 1 | US Open Tennis Championships 2026 - 07:50 WIB 02-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17139&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17139&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/XiThHc74qd8ZITXgSc-d2j21ct4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297195/0242ec.png" group-title="LIVE NOW - SPOTV 2", Mary Stoiana vs Alexandra Eala - Women's Singles Round 1 | US Open Tennis Championships 2026 - 08:43 WIB 02-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/XiThHc74qd8ZITXgSc-d2j21ct4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297195/0242ec.png" group-title="LIVE NOW - SPOTV 2", Mary Stoiana vs Alexandra Eala - Women's Singles Round 1 | US Open Tennis Championships 2026 - 08:43 WIB 02-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/Xee3roDIfnSjKZDq2EHbotxh9V8=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5295929/1a021f.jpg" group-title="UPCOMING - Bein 3", Madrid P1 Premier Padel 2026 - Day 2 - 14:00 WIB 02-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/Xee3roDIfnSjKZDq2EHbotxh9V8=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5295929/1a021f.jpg" group-title="UPCOMING - Bein 3", Madrid P1 Premier Padel 2026 - Day 2 - 14:00 WIB 02-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/rBfZKKtctSHLMYIbMlFo7zwqdLI=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5303655/2f214e.jpg" group-title="UPCOMING - LI-NING China Masters 2026 - Round Of 32 (Court 1)", Kang Min Hyuk/Ki Dong Ju (KOR) vs Sabar Karyaman Gutama/Moh Reza Pahlevi Isfahani (INA) - Men's Doubles Round of 32 | LI-NING China Masters 2026 - 16:00 WIB 02-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18249&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/rBfZKKtctSHLMYIbMlFo7zwqdLI=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5303655/2f214e.jpg" group-title="UPCOMING - LI-NING China Masters 2026 - Round Of 32 (Court 1)", Kang Min Hyuk/Ki Dong Ju (KOR) vs Sabar Karyaman Gutama/Moh Reza Pahlevi Isfahani (INA) - Men's Doubles Round of 32 | LI-NING China Masters 2026 - 16:00 WIB 02-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18249&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=18249&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/1KdgrYgGbZNV1nKlKElkfOtipto=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5296655/1b30e3.png" group-title="UPCOMING - Bein 2", Stage 11: Cartegena - Lorca | La Vuelta 2026 - 19:50 WIB 02-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/1KdgrYgGbZNV1nKlKElkfOtipto=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5296655/1b30e3.png" group-title="UPCOMING - Bein 2", Stage 11: Cartegena - Lorca | La Vuelta 2026 - 19:50 WIB 02-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/BX2k5-A4uzp3bEoO9O7sUGa8IOQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297196/489b37.jpg" group-title="UPCOMING - Bein 3", Madrid P1 Premier Padel 2026 - Day 3 - 14:00 WIB 03-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/BX2k5-A4uzp3bEoO9O7sUGa8IOQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297196/489b37.jpg" group-title="UPCOMING - Bein 3", Madrid P1 Premier Padel 2026 - Day 3 - 14:00 WIB 03-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/5EcdEeSpFdTcEjIIvkn3XZijF70=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5296807/8cee57.jpg" group-title="UPCOMING - AFC U20 Asian Cup 2027 Qualifiers", Malaysia vs Australia - AFC U20 Asian Cup 2027 Qualifiers - 15:30 WIB 03-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=22157&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/5EcdEeSpFdTcEjIIvkn3XZijF70=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5296807/8cee57.jpg" group-title="UPCOMING - AFC U20 Asian Cup 2027 Qualifiers", Malaysia vs Australia - AFC U20 Asian Cup 2027 Qualifiers - 15:30 WIB 03-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=22157&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=22157&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/8iubJe0ZCuvb_EaLDVCZ3MhpEA8=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5296656/a6d3f6.png" group-title="UPCOMING - Bein 2", Stage 12: Vera - Calar Alto | La Vuelta 2026 - 17:50 WIB 03-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/8iubJe0ZCuvb_EaLDVCZ3MhpEA8=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5296656/a6d3f6.png" group-title="UPCOMING - Bein 2", Stage 12: Vera - Calar Alto | La Vuelta 2026 - 17:50 WIB 03-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/BjPVoTzfVe_gXKf9LO7_6yxvjRw=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5300233/98f4fe.jpg" group-title="UPCOMING - AFC U20 Asian Cup 2027 Qualifiers", Laos vs Indonesia - AFC U20 Asian Cup 2027 Qualifiers - 18:30 WIB 03-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=22157&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/BjPVoTzfVe_gXKf9LO7_6yxvjRw=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5300233/98f4fe.jpg" group-title="UPCOMING - AFC U20 Asian Cup 2027 Qualifiers", Laos vs Indonesia - AFC U20 Asian Cup 2027 Qualifiers - 18:30 WIB 03-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=22157&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=22157&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/7ZLu3kkA-JDtHgASTZ1ka-bADp4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297198/2144a1.jpg" group-title="UPCOMING - Bein 3", Madrid P1 Premier Padel 2026 - Day 3 - 20:00 WIB 03-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/7ZLu3kkA-JDtHgASTZ1ka-bADp4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297198/2144a1.jpg" group-title="UPCOMING - Bein 3", Madrid P1 Premier Padel 2026 - Day 3 - 20:00 WIB 03-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/ZiOCUsRYjI2MRW5vuVJrssGbcC4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302649/10435f.jpg" group-title="UPCOMING - Bein 1", Real Sociedad vs Celta Vigo - LaLiga - 01:55 WIB 04-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/ZiOCUsRYjI2MRW5vuVJrssGbcC4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302649/10435f.jpg" group-title="UPCOMING - Bein 1", Real Sociedad vs Celta Vigo - LaLiga - 01:55 WIB 04-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/uqQlcPLdlgNUa0S7Rzp0l3KmWR4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297199/6e55b8.jpg" group-title="UPCOMING - Bein 3", Madrid P1 Premier Padel 2026 - Quarterfinal - 14:00 WIB 04-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/uqQlcPLdlgNUa0S7Rzp0l3KmWR4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297199/6e55b8.jpg" group-title="UPCOMING - Bein 3", Madrid P1 Premier Padel 2026 - Quarterfinal - 14:00 WIB 04-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/rY4QAFiVL4hLU0Ni051nHHVL-qc=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302658/b42f0e.png" group-title="UPCOMING - SPOTV 2", WorldSBK Free Practice 1 - WorldSBK Championship 2026 Round 9 Acerbis French Round - 15:45 WIB 04-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/rY4QAFiVL4hLU0Ni051nHHVL-qc=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302658/b42f0e.png" group-title="UPCOMING - SPOTV 2", WorldSBK Free Practice 1 - WorldSBK Championship 2026 Round 9 Acerbis French Round - 15:45 WIB 04-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/O9DARJhvEKVcXlmO2KhkwNeR7mM=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302659/0d633c.png" group-title="UPCOMING - SPOTV 2", WorldSPB - Superpole - WorldSBK Championship 2026 Round 9 Acerbis French Round - 19:05 WIB 04-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/O9DARJhvEKVcXlmO2KhkwNeR7mM=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302659/0d633c.png" group-title="UPCOMING - SPOTV 2", WorldSPB - Superpole - WorldSBK Championship 2026 Round 9 Acerbis French Round - 19:05 WIB 04-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/_KkDK828EoMyHd6WVxKPpVbs0NQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302660/df6125.png" group-title="UPCOMING - SPOTV 2", WorldSBK Free Practice 2 - WorldSBK Championship 2026 Round 9 Acerbis French Round - 20:00 WIB 04-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/_KkDK828EoMyHd6WVxKPpVbs0NQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302660/df6125.png" group-title="UPCOMING - SPOTV 2", WorldSBK Free Practice 2 - WorldSBK Championship 2026 Round 9 Acerbis French Round - 20:00 WIB 04-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/49NfXd7xD8y39xU8Z8_0qZfs8YQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302661/32eb82.png" group-title="UPCOMING - SPOTV 2", WorldSSP Superpole - WorldSBK Championship 2026 Round 9 Acerbis French Round - 21:00 WIB 04-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/49NfXd7xD8y39xU8Z8_0qZfs8YQ=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302661/32eb82.png" group-title="UPCOMING - SPOTV 2", WorldSSP Superpole - WorldSBK Championship 2026 Round 9 Acerbis French Round - 21:00 WIB 04-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17140&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/vmXEiEGLIkF9OYZG3T51dzc8YTo=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302758/181d2d.jpg" group-title="UPCOMING - Champions TV 3", Genoa vs Como - Serie A - 01:30 WIB 05-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6786&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/vmXEiEGLIkF9OYZG3T51dzc8YTo=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302758/181d2d.jpg" group-title="UPCOMING - Champions TV 3", Genoa vs Como - Serie A - 01:30 WIB 05-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6786&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6786&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/-7kUxkLoGuN624UZBf23bEdbNSU=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5300218/2bb4db.jpg" group-title="UPCOMING - Premier League 2026/27", Ipswich vs Liverpool - Premier League - 01:30 WIB 05-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=22022&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/-7kUxkLoGuN624UZBf23bEdbNSU=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5300218/2bb4db.jpg" group-title="UPCOMING - Premier League 2026/27", Ipswich vs Liverpool - Premier League - 01:30 WIB 05-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=22022&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=22022&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/NkaWsENXYmbFYLVRI7Qui_wi6X4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302650/f009eb.jpg" group-title="UPCOMING - Bein 1", Real Betis vs Real Madrid - LaLiga - 01:55 WIB 05-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/NkaWsENXYmbFYLVRI7Qui_wi6X4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302650/f009eb.jpg" group-title="UPCOMING - Bein 1", Real Betis vs Real Madrid - LaLiga - 01:55 WIB 05-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/dehW-iTT39bayRqkYJN_dh5AO8I=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302654/b04551.png" group-title="UPCOMING - ONE Championship", ONE Fight Night 47: Stamp vs Flores - 08:00 WIB 05-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=16890&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/dehW-iTT39bayRqkYJN_dh5AO8I=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302654/b04551.png" group-title="UPCOMING - ONE Championship", ONE Fight Night 47: Stamp vs Flores - 08:00 WIB 05-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=16890&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=16890&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/48oUUDMSZa_EjrpkSCKWvreSa5g=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297203/df719d.jpg" group-title="UPCOMING - Bein 2", Madrid P1 Premier Padel 2026 - Semifinal - 17:00 WIB 05-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/48oUUDMSZa_EjrpkSCKWvreSa5g=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297203/df719d.jpg" group-title="UPCOMING - Bein 2", Madrid P1 Premier Padel 2026 - Semifinal - 17:00 WIB 05-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/w_5_ARAEmkYlh7ybDstIQ3rL2s8=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302655/45c41b.jpg" group-title="UPCOMING - Bein 3", Athletic Club vs Atletico Madrid - LaLiga - 21:10 WIB 05-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/w_5_ARAEmkYlh7ybDstIQ3rL2s8=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302655/45c41b.jpg" group-title="UPCOMING - Bein 3", Athletic Club vs Atletico Madrid - LaLiga - 21:10 WIB 05-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/pGn-WZJiEVZpdoPMF2LAyLD8x2E=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302651/3f9b8f.jpg" group-title="UPCOMING - Bein 1", Rayo Vallecano vs Racing Santander - LaLiga - 23:30 WIB 05-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/pGn-WZJiEVZpdoPMF2LAyLD8x2E=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302651/3f9b8f.jpg" group-title="UPCOMING - Bein 1", Rayo Vallecano vs Racing Santander - LaLiga - 23:30 WIB 05-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/5jbTvxd1msPMt2Trl5UTrYS1nKI=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302652/2fbca7.jpg" group-title="UPCOMING - Bein 1", Villarreal vs RC Deportivo - LaLiga - 01:55 WIB 06-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/5jbTvxd1msPMt2Trl5UTrYS1nKI=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302652/2fbca7.jpg" group-title="UPCOMING - Bein 1", Villarreal vs RC Deportivo - LaLiga - 01:55 WIB 06-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/ZlTGNE_8O9v2EtsTK35Cz7JI3KE=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302656/9cd04a.jpg" group-title="UPCOMING - Bein 3", Valencia vs Barcelona - LaLiga - 21:10 WIB 06-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/ZlTGNE_8O9v2EtsTK35Cz7JI3KE=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302656/9cd04a.jpg" group-title="UPCOMING - Bein 3", Valencia vs Barcelona - LaLiga - 21:10 WIB 06-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/ovs_EpX6XjYBvIF82Rx1dMM-_j4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297204/8a87d1.jpg" group-title="UPCOMING - Bein 2", Madrid P1 Premier Padel 2026 - Final - 22:50 WIB 06-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/ovs_EpX6XjYBvIF82Rx1dMM-_j4=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5297204/8a87d1.jpg" group-title="UPCOMING - Bein 2", Madrid P1 Premier Padel 2026 - Final - 22:50 WIB 06-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=17875&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/l0hSylyF1R8YUWFkHhCZExx7584=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302657/e4b643.jpg" group-title="UPCOMING - Bein 3", Malaga vs Levante - LaLiga - 23:15 WIB 06-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/l0hSylyF1R8YUWFkHhCZExx7584=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302657/e4b643.jpg" group-title="UPCOMING - Bein 3", Malaga vs Levante - LaLiga - 23:15 WIB 06-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6317&type=dash&api=video
+
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/W-9TYxA1M_Z4ZjCUWrbX3zUD9Lk=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302653/4a179b.jpg" group-title="UPCOMING - Bein 1", Alaves vs Osasuna - LaLiga - 23:30 WIB 06-09-2026 (HLS)
+https://boti.my.id/index.m3u8?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=hls&api=video
+#EXTINF:-1 tvg-logo="https://thumbor.prod.vidiocdn.com/W-9TYxA1M_Z4ZjCUWrbX3zUD9Lk=/640x360/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5302653/4a179b.jpg" group-title="UPCOMING - Bein 1", Alaves vs Osasuna - LaLiga - 23:30 WIB 06-09-2026 (DASH)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/index.php?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=drm&api=video
+https://boti.my.id/index.mpd?u=mbkidriss9%40gmail.com&x=8r9K37UnknzioqCKUjEq&a=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InR5cGUiOiJhY2Nlc3NfdG9rZW4iLCJ1aWQiOjIyMjMzNzE5NH0sImV4cCI6MTc4ODY3NzQxMX0.1el9kCyuN9ejhHqXrLlYcZXzaQwkxR4S3qnJCSYZ4bs&id=6299&type=dash&api=video
+
