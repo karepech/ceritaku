@@ -26,26 +26,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run Script Utama (Series & Movie)
+      - name: Run Python Script
         run: python generate_m3u.py
-
-      - name: Run Script Khusus (Live & Upcoming)
-        run: python generate_live.py
 
       - name: Commit and Push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Baris ini akan otomatis mendeteksi dan menyimpan ke-5 file (.m3u)
-          # (all_series.m3u, series_100.m3u, movies.m3u, live.m3u, upcoming.m3u)
+          # Baris ini akan otomatis mendeteksi dan menyimpan ke-4 file (.m3u)
+          # (playlist-vidio.m3u, all_series.m3u, movies.m3u, live_upcoming.m3u)
           git add *.m3u
           
           # Menyimpan dengan pesan commit berisi tanggal & jam saat ini
-          git commit -m "Auto-update 5 playlists $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
-          
-          # TARIK PERUBAHAN TERBARU DARI GITHUB SEBELUM PUSH (Mencegah Error Rejected)
-          git pull --rebase origin main
-          
-          # Simpan ke GitHub
+          git commit -m "Auto-update 4 playlists $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push
